@@ -20,9 +20,9 @@
   </button>
 </div>
 
-<div class="container">
-    <h1 class="text-danger">
-        who is uncle lou
+<div class="container mt-4">
+    <h1 class="text-center text-danger">
+        Our humble beginnings
     </h1>
 
     <p>
@@ -30,3 +30,27 @@
         Using his connections to local produce vendors, fishmongers, butchers, grocers, and seasoned cooks, the menu at Uncle Lou is meant to bridge the generations, while welcoming all to enjoy. The extensive menu is big by design. The “lo wah kiu favorites” takes grandparents back to the Cantonese villages in Toisan, Sunwui, Enping, and Hoiping. ABC’s and “jook sing” are comforted by classic meals they enjoyed between Chinese school and playing in Columbus Park. Friends from around the world can appreciate the freshness and quality from locally-sourced ingredients and expert preparation.
     </p>
 </div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center text-danger">
+    Reservation
+    </h1>
+
+    <p>Uncle Lou is open six days a week 11am to 10pm, and closed on Tuesdays. </p>
+    <p>We accept reservations over the phone for groups of six and up. Please call 212-966-5538. We welcome walk-ins for smaller parties.</p>
+    <p>Event and catering services available.
+    Direct inquiries to info@unclelounyc.com</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            left
+        </div>
+    
+        <div class="col">
+            right
+        </div>
+    </div>
+</div>
+

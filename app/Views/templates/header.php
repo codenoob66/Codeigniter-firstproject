@@ -11,7 +11,7 @@ $uri = $_SERVER['REQUEST_URI'];
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2">
@@ -25,10 +25,10 @@ $uri = $_SERVER['REQUEST_URI'];
                     <a class="text-danger fs-5 mx-3 <?= url_is('/reservation') ? '' : 'text-decoration-none' ?>" href="/reservation">Reservation</a>
                     <a class="text-danger fs-5 mx-3 <?= url_is('/menu') ? '' : 'text-decoration-none' ?>" href="/menu">Menu</a>
                 </div>  
-                <h4 class="text-danger fs-2 testClass">东北烧烤</h4>
+                <h4 class="text-danger fs-2">东北烧烤</h4>
             </div>
             
         </div>
     </nav>
     
-    <div class=" mt-4">
+    <div class="bg-primary mt-4">
