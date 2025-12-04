@@ -1,6 +1,6 @@
 <footer class="bg-footer text-white mt-auto p-4">
         <div class="container">
-            <p class="text-center">&copy; 2025 Company, Inc.</p>
+            <p class="text-start">Copyright © 2024 North East BBQ. Powered by CodesByRafael.</p>
         </div>
 </footer>
 
