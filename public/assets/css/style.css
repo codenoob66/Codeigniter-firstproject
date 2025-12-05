@@ -1,0 +1,8 @@
+.c-img {
+  height: 650px;
+  object-fit: cover;
+}
+
+.test {
+  width: 100% !important;
+}
