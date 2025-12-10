@@ -7,8 +7,13 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">My Site</a>
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <a class="navbar-brand" href="/">My Site</a>
+            <div class="">
+                <a href="">About</a>
+                <a href="">Reservation</a>
+                <a href="">Menu</a>
+            </div>
         </div>
     </nav>
     
