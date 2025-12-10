@@ -26,7 +26,7 @@ abstract class BaseController extends Controller
      */
 
     // protected $session;
-
+    protected $helpers = ['nav_util'];
     /**
      * @return void
      */
