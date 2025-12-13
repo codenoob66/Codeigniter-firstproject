@@ -7,3 +7,7 @@
 <div class="alert alert-success">
     Bootstrap is working correctly 🎉
 </div>
+
+<?php 
+    test()
+?>

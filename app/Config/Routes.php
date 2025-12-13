@@ -7,6 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/contact', 'contact::index');
+$routes->get('/reservation', 'reservation::index');
+$routes->get('/menu', 'menu::index');
 
 
 

@@ -15,9 +15,9 @@
                 
             </div>
             <div class="position-absolute start-50 translate-middle-x">
-                <a class="text-danger text-decoration-none" href="">About</a>
-                <a class="text-danger text-decoration-none" href="">Reservation</a>
-                <a class="text-danger text-decoration-none" href="">Menu</a>
+                <a class="text-danger text-decotration-none" href="/">About</a>
+                <a class="text-danger text-decoration-none" href="/reservation">Reservation</a>
+                <a class="text-danger text-decoration-none" href="/menu">Menu</a>
             </div>
         </div>
     </nav>
