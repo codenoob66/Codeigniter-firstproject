@@ -1,3 +1,3 @@
 <h1>
-    Welcome to the homepage
+    Welcome to the Contact page
 </h1>
