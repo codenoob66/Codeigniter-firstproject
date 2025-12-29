@@ -2,15 +2,14 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Contact extends BaseController 
 {
     public function index()
     {
-
         return view('templates/header', [
-            'title' => 'Home'
+            'title' => 'Contact Page'
         ])
-        . view('home')
+        . view('contact')
         . view('templates/footer');
     }
 }
