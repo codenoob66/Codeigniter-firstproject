@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title><?= $title ?></title>
+    <title><?= $title; ?></title>
 </head>
+
 <body>
-    <h1><?= $title ?></h1>
-    <p><?= $message ?></p>
-    <p><?= $meow ?></p>
+    <h1><?= $username; ?></h1>
 </body>
+
 </html>

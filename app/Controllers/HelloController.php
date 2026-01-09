@@ -6,6 +6,10 @@ class HelloController extends BaseController
 {
     public function index()
     {
-        return view("dashboard");
+        $data = [
+            'title' => 'Welcome Page',
+            'username' => 'Rafael'
+        ];
+        return view("hello_view", $data);
     }
 }
