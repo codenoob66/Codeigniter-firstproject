@@ -7,9 +7,9 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid d-flex justify-content-center align-items-center">
-            <a class="navbar-brand" href="/">My Site</a>
-            <div class="">
+        <div class="container-fluid">
+            <a href="">North East BBQ</a>
+            <div class="position-absolute start-50 translate-middle-x">
                 <a href="">About</a>
                 <a href="">Reservation</a>
                 <a href="">Menu</a>
