@@ -5,6 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
+use Faker\Extension\Helper;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -26,7 +27,7 @@ abstract class BaseController extends Controller
      */
 
     // protected $session;
-    protected $helpers = ['nav_util'];
+    protected $helpers = ['nav_util', 'url'];
     /**
      * @return void
      */

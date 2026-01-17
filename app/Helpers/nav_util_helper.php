@@ -1,11 +1,9 @@
 <?php
 
-// app/Helpers/nav_util_helper.php
- // Define it inside
-
-function test(){
-    $uri = $_SERVER['REQUEST_URI'];
-    if($uri === "/"){
-        echo "text-decoration-none";
+function test($uri, $path){
+    if($uri != $path){
+        echo "text-danger text-decoration-none";
+    } else {
+        echo "text-danger";
     }
 }

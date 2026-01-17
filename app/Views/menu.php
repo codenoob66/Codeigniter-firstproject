@@ -1,3 +1,3 @@
 <h1>
-    menu page
+    This is the menu page
 </h1>
