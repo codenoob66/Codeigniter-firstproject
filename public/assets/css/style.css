@@ -25,6 +25,12 @@ body {
 
 .s-header-font {
   font-family: "Space Mono", monospace;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-header-font {
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
   font-style: normal;
 }

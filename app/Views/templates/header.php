@@ -27,9 +27,9 @@ $uri = $_SERVER['REQUEST_URI'];
             </div>
             <div class="text-center position-absolute start-50 translate-middle-x fw-medium">
                 <div>
-                    <a class="text-danger fs-5 mx-3 s-header-font  <?= url_is('/') ? '' : 'text-decoration-none' ?>" href="/">About</a>
-                    <a class="text-danger fs-5 mx-3 s-header-font <?= url_is('/reservation') ? '' : 'text-decoration-none' ?>" href="/reservation">Reservation</a>
-                    <a class="text-danger fs-5 mx-3 s-header-font <?= url_is('/menu') ? '' : 'text-decoration-none' ?>" href="/menu">Menu</a>
+                    <a class="text-danger fs-4 mx-3 text-decoration-none nav-header-font border-bottom border-danger border-3  <?= url_is('/') ? '' : 'border-bottom-0' ?>" href="/">About</a>
+                    <a class="text-danger fs-4 mx-3 text-decoration-none nav-header-font border-bottom border-danger border-3 <?= url_is('/reservation') ? '' : 'border-bottom-0' ?>" href="/reservation">Reservation</a>
+                    <a class="text-danger fs-4 mx-3 text-decoration-none nav-header-font border-bottom border-danger border-3 <?= url_is('/menu') ? '' : 'border-bottom-0' ?>" href="/menu">Menu</a>
                 </div>  
                 <h4 class="text-danger fs-2">东北烧烤</h4>
             </div>
