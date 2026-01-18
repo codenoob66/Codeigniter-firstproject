@@ -8,17 +8,51 @@
 <div class="container">
     <div class="row">
 
-        <div class="col border-danger border-end">
+        <div class="col border-danger border-end items-center">
             <h3 class="text-center">
-                left
+                Mains
             </h3>
+            <!-- <div class="row">
+                <div class="col">
+                    food
+                </div>
+                <div class="col">
+                    picture
+                </div>
+            </div> -->
+
+            <div class="d-flex justify-content-around">
+                <div>
+                    Name of food
+                </div>
+
+                <div>
+                    picture
+                </div>
+            </div>
         </div>
 
         <div class="col border-danger">
             <h3 class="text-center">
-                Right
+                Sides
             </h3>
+
+            <div class="d-flex justify-content-around">
+                <div>
+                    Name of food
+                </div>
+
+                <div>
+                    picture
+                </div>
+            </div>
         </div>
 
+    </div>
+
+    <div class="container text-center border-danger border-start-0 border border-end-0">
+        <h3>
+            Drinks
+        </h3>
     </div>
 </div>
