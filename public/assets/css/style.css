@@ -34,3 +34,8 @@ body {
   font-weight: 800;
   font-style: normal;
 }
+
+.food-img {
+  width: 100%;
+  object-fit: fill;
+}

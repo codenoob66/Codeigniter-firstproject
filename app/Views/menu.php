@@ -12,22 +12,41 @@
             <h3 class="text-center">
                 Mains
             </h3>
-            <!-- <div class="row">
-                <div class="col">
-                    food
-                </div>
-                <div class="col">
-                    picture
-                </div>
-            </div> -->
+            <div class="d-flex flex-column justify-content-around gap-4">
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
 
-            <div class="d-flex justify-content-around">
-                <div>
-                    Name of food
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img"">
+                    </div> 
                 </div>
 
-                <div>
-                    picture
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
+
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img">
+                    </div> 
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
+
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -37,22 +56,59 @@
                 Sides
             </h3>
 
-            <div class="d-flex justify-content-around">
-                <div>
-                    Name of food
+            <div class="d-flex flex-column justify-content-around gap-4">
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
+
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img"">
+                    </div> 
                 </div>
 
-                <div>
-                    picture
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
+
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img">
+                    </div> 
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <ul>
+                        <li>
+                            Chinese BBQ Mixed Platter (Char Siu & Roast Pork)
+                        </li>
+                    </ul>
+
+                    <div class="w-25">
+                        <img src="<?= base_url("assets/test-food.png") ?>" alt="test image" class="food-img">
+                    </div> 
                 </div>
             </div>
         </div>
 
-    </div>
 
-    <div class="container text-center border-danger border-start-0 border border-end-0">
+        <div class="container text-center">
         <h3>
             Drinks
         </h3>
+        <div class="w-25 container text-center">
+            <ol class="ps-0 list-inside">
+                <li>Jasmine Iced Tea Light</li>
+                <li>Jasmine Iced Tea Light</li>
+                <li>Jasmine Iced Tea Light</li>
+                <li>Jasmine Iced Tea Light</li>
+                <li>Jasmine Iced Tea Light</li>
+            </ol>
+        </div>
+    </div>
     </div>
 </div>
