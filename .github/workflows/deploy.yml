@@ -25,7 +25,7 @@ jobs:
         # This creates the 'vendor' folder INSIDE 'ci4' before uploading
 
       - name: Sync files via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
