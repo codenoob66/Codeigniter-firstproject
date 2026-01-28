@@ -1,4 +1,4 @@
-name: Deploy Custom CI4 Structure
+name: Deploy via SFTP
 
 on:
   push:
@@ -7,36 +7,30 @@ on:
 
 jobs:
   web-deploy:
-    name: Build & Deploy
+    name: 🎉 Build & Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Get latest code
+      - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
-      - name: Setup PHP
+      - name: 🐘 Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.2" # Ensure this matches your One.com PHP version
+          php-version: "8.2"
 
-      - name: Install Dependencies (Inside ci4 folder)
+      - name: 📦 Install Dependencies (Inside ci4 folder)
         run: |
           cd ci4
           composer install --no-dev --optimize-autoloader
-        # This creates the 'vendor' folder INSIDE 'ci4' before uploading
 
-      - name: Sync files via SFTP
+      - name: 📂 Sync files via SFTP
+        # 👇 This tool supports the SSH/SFTP secrets you already have!
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          # ðŸ‘‡ REPLACE THIS with the path from your file manager top bar
-          server-dir: /customers/7/4/7/c4jgv8ijp/webroots/0aa3e93a/
-          exclude: |
-            **/.git*
-            **/.github*
-            **/tests/**
-            ci4/.env 
-            .env
+          port: 22
+          local_path: "./"
+          remote_path: "/customers/7/4/7/c4jgv8ijp/webroots/0aa3e93a/"
+          sftp_args: "-o StrictHostKeyChecking=no"
