@@ -1,0 +1,225 @@
+CRITICAL - 2026-01-09 02:57:10 --> ErrorException: Undefined variable $title
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 4.
+ 1 APPPATH\Views\hello_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(9): view('hello_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 02:57:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 4.
+ 1 APPPATH\Views\hello_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(9): view('hello_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:01:40 --> ErrorException: Undefined variable $title
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 4.
+ 1 APPPATH\Views\hello_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(9): view('hello_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:02:14 --> ErrorException: Undefined variable $message
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 12.
+ 1 APPPATH\Views\hello_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(9): view('hello_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:02:14 --> ErrorException: Undefined variable $message
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 12.
+ 1 APPPATH\Views\hello_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(9): view('hello_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:07:54 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(12): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:08:04 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(12): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:08:05 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(12): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:08:06 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(12): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:09:21 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 5.
+ 1 APPPATH\Views\hello_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:09:22 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 5.
+ 1 APPPATH\Views\hello_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:09:28 --> ErrorException: Undefined variable $data
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 5.
+ 1 APPPATH\Views\hello_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:10:23 --> ErrorException: Undefined variable $message
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:10:28 --> ErrorException: Undefined variable $message
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
+CRITICAL - 2026-01-09 03:10:38 --> ErrorException: Undefined variable $message
+[Method: GET, Route: hello]
+in APPPATH\Views\hello_view.php on line 9.
+ 1 APPPATH\Views\hello_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\app\\Views\\hello_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('hello_view', [], true)
+ 5 APPPATH\Controllers\HelloController.php(13): view('hello_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\smurf\\Desktop\\MyProjects\\Codeigniter-firstproject\\public\\index.php')
