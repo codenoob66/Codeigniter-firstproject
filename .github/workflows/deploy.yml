@@ -33,4 +33,4 @@ jobs:
           port: 22
           local_path: "./"
           remote_path: "/customers/7/4/7/c4jgv8ijp/webroots/0aa3e93a/"
-          sftp_args: "-o StrictHostKeyChecking=no"
+          sftpArgs: "-o StrictHostKeyChecking=no"
