@@ -7,7 +7,7 @@ $uri = $_SERVER['REQUEST_URI'];
 <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@ $uri = $_SERVER['REQUEST_URI'];
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 </head>
-<body>
+<body class="min-vh-100 d-flex flex-column">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
             <div class="row">
