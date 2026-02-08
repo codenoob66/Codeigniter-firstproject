@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="col d-flex flex-column text-center text-lg-start">
+    <div class="col d-flex flex-column text-center text-lg-start ">
 
       <p>Uncle Lou is open six days a week 11am to 10pm, and closed on Tuesdays. </p>
       <p>We accept reservations over the phone for groups of six and up. Please call <span class="text-danger fw-bold italic-font">212-966-5538</span>. We welcome walk-ins for smaller parties.</p>
