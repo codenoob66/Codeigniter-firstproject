@@ -39,11 +39,13 @@
 
 <div class="container mb-4">
   <div class="row">
-    <div class="col">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.34867987055!2d-74.00718066356129!3d40.71609750627592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f56c2fc10d%3A0xcf9e1370cd1f3111!2sChinatown%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sph!4v1768643516127!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="col-12 col-lg-6">
+      <div class="ratio ratio-16x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.34867987055!2d-74.00718066356129!3d40.71609750627592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f56c2fc10d%3A0xcf9e1370cd1f3111!2sChinatown%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sph!4v1768643516127!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
 
-    <div class="col d-flex flex-column justify-content-center">
+    <div class="col d-flex flex-column text-center text-lg-start">
 
       <p>Uncle Lou is open six days a week 11am to 10pm, and closed on Tuesdays. </p>
       <p>We accept reservations over the phone for groups of six and up. Please call <span class="text-danger fw-bold italic-font">212-966-5538</span>. We welcome walk-ins for smaller parties.</p>
