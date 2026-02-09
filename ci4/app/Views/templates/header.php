@@ -22,7 +22,9 @@ $uri = $_SERVER['REQUEST_URI'];
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2">
-                    <img src="<?= base_url('assets/Logo.jpg') ?>" alt="China town BBQ Logo" class="w-75">
+                    <a href="<?= base_url('/') ?>">
+                        <img src="<?= base_url('assets/Logo.jpg') ?>" alt="China town BBQ Logo" class="w-75" >
+                    </a>
                 </div>
                 
             </div>

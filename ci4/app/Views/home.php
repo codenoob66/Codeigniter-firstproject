@@ -45,12 +45,27 @@
       </div>
     </div>
 
-    <div class="col d-flex flex-column text-center text-lg-start ">
-
+    <div class="col flex-column text-center my-auto">
       <p>Uncle Lou is open six days a week 11am to 10pm, and closed on Tuesdays. </p>
       <p>We accept reservations over the phone for groups of six and up. Please call <span class="text-danger fw-bold italic-font">212-966-5538</span>. We welcome walk-ins for smaller parties.</p>
-      <p>Event and catering services available.
-        Direct inquiries to <span class="text-danger fw-bold italic-font">info@northeastbbq.online</span></p>
+      <p>Event and catering services available. Direct inquiries to <span class="text-danger fw-bold italic-font">info@northeastbbq.online</span></p>
+    </div>
+
+    <div class="col-12 col-md-6 mx-md-auto">
+      <form class="p-3">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
+      <div>
+        <label for="exampleInputPassword1" class="form-label">Write your message</label>
+        <textarea class="form-control" rows="5" name="" id="" placeholder="write your message here"></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger mt-3">Submit</button>
+    </form>
     </div>
   </div>
 </div>
