@@ -53,13 +53,13 @@ $uri = $_SERVER['REQUEST_URI'];
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About</a>
+            <a class="nav-link text-danger fw-medium fs-4 border-bottom border-danger border-3 <?= url_is('/') ? '' : 'border-bottom-0' ?>" aria-current="page" href="/">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reservation</a>
+            <a class="nav-link text-danger fw-medium fs-4 border-bottom border-danger border-3 <?= url_is('/reservation') ? '' : 'border-bottom-0' ?>" href="/reservation">Reservation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" role="button" aria-expanded="false">
+            <a class="nav-link text-danger fw-medium fs-4 border-bottom border-danger border-3 <?= url_is('/menu') ? '' : 'border-bottom-0' ?>" href="/menu" role="button" aria-expanded="false">
               Menu
             </a>
           </li>
