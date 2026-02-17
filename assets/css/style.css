@@ -3,6 +3,11 @@
   font-weight: 400;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
 .c-img {
   height: 650px;
   object-fit: cover;
