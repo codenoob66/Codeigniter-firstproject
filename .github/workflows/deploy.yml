@@ -33,4 +33,5 @@ jobs:
           port: 22
           local_path: "./ci4/"
           remote_path: "/customers/7/4/7/c4jgv8ijp/webroots/0aa3e93a/"
+          exclude: ".env"
           sftpArgs: "-o StrictHostKeyChecking=no"

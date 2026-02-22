@@ -13,4 +13,11 @@ class Home extends BaseController
         . view('home')
         . view('templates/footer');
     }
+
+    public function send()
+    {
+        $email = service('email');
+
+        $email->setFrom('test');
+    }
 }
