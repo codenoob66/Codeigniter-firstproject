@@ -23,15 +23,14 @@ jobs:
           cd ci4
           composer install --no-dev --optimize-autoloader
 
-      - name: 📂 Sync files via SFTP
-        # 👇 This tool supports the SSH/SFTP secrets you already have!
+      - name: 📂 Sync site root via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
-          local_path: "./ci4/"
+          local_path: "./"
           remote_path: "/customers/7/4/7/c4jgv8ijp/webroots/0aa3e93a/"
-          exclude: ".env"
+          exclude: ".git,.github,ci4/.env"
           sftpArgs: "-o StrictHostKeyChecking=no"
