@@ -52,14 +52,14 @@
     </div>
 
     <div class="col-12 col-md-6 mx-md-auto">
-      <form class="p-3">
+      <form method="post" action="/send" class="p-3">
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" placeholder="We would never give out your information" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="email" name="email" placeholder="We would never give out your information" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
       <div>
         <label for="exampleInputPassword1" class="form-label">Write your inquiry</label>
-        <textarea class="form-control" rows="5" name="" id=""></textarea>
+        <textarea class="form-control" rows="5" name="message" id="exampleInputMessage"></textarea>
       </div>
       <button type="submit" class="btn btn-danger mt-3">Submit</button>
     </form>

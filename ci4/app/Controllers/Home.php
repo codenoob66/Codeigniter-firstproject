@@ -16,8 +16,23 @@ class Home extends BaseController
 
     public function send()
     {
+        $userEmail = $this->request->getPost('email');
+        $userMessage = $this->request->getPost('message');
+        
         $email = service('email');
-
-        $email->setFrom('test');
+        $email->setFrom('info@northeastbbq.com', 'Website contact form');
+        $email->setTo($userEmail, 'rafael');
+        // $email->setCC('another@another-example.com');
+        // $email->setBCC('them@their-example.com');
+        $email->setSubject('Email Test');
+        $email->setMessage($userMessage);
+        if($email->send())
+            {
+                return redirect()->to('/')->with('sucess', 'test message!');
+            }
+                return "<pre>" . print_r($email->printDebugger(['headers', 'subject', 'body']), true) . "</pre>";
     }
+
 }
+
+        
