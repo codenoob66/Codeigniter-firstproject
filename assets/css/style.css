@@ -41,5 +41,25 @@ body {
 
 .food-img {
   width: 100%;
-  object-fit: fill;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.carousel-indicators::-webkit-scrollbar {
+  display: none;
+}
+
+.red-background {
+  background-color: #d61a3c;
+}
+
+p {
+  margin: 0;
 }
